@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.box-container {
+  height: 150px;
+  width: 350px;
+  border: 1px dashed black;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll-container {
+  height: 300px;
+  width: 450px;
+  border: 3px dashed black;
+  padding: 8px;
+  overflow: scroll;
+}
